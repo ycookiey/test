@@ -16,7 +16,7 @@
     function time(){
        setTimeout("time()",100);
  var now=new Date();
- var ltimea=40; //(秒)
+ var ltimea=60; //(秒)
  var ltimeb=ltimea*1000;
   var dt=parseInt(ltimea-(now.getTime()-start.getTime())/1000);
             document.EnForm.sbox.value=dt%60;
@@ -34,7 +34,7 @@
 
 <CENTER><FORM NAME="EnForm" ><B><FONT SIZE=10>残り</FONT></B>
    
-   <INPUT TYPE="text" NAME="sbox" SIZE=1 style="width:50px;font-size:100%">
+   <INPUT TYPE="text" NAME="sbox" SIZE=2 style="width:50px;font-size:100%">
       
       <B><FONT SIZE=10>秒</FONT></B></FORM></CENTER>
 
